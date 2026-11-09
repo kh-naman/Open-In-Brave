@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Open in Brave",
+  "version": "1.0",
+  "description": "Open the current YouTube video (or a link) in Brave.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr5tR80ZZ/+lfg6tOHn26bia+jNK2JZ/mRxCeFuiNkdWQPTd81DHsBWTCi548V2tP44SxT7EGP73SOx0GUSO2KBJcNpm6Z0QltIIarkGyPrJQZgll33+yHehqry3Xe6hSf3IZymqOJUOoEAEtqIMI6pLcvHkqcAaoTtpsKRALDe8ghK7H5aPHZxzUL7ADs5ql3b9wiZDIaLXHNMMgaCaGbGUvmq7unjbziJTqUHl7tb6KPZ4T14PK5BpXYlaM9rsfMMEzoZsx+nWHc04gTybbwtcSfhI1DSUvsX7nytlX+tNKgGysV0idsRJklxajT4In30r77WmZv5p77FKA5C04EwIDAQAB",
+  "permissions": [
+    "contextMenus",
+    "nativeMessaging",
+    "activeTab"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Open in Brave"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+B"
+      },
+      "description": "Open this video in Brave"
+    }
+  }
+}

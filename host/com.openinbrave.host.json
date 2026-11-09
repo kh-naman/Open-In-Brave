@@ -1,0 +1,9 @@
+{
+  "name": "com.openinbrave.host",
+  "description": "Open YouTube URLs in Brave",
+  "path": "/Users/nkhandelwal/Downloads/open-in-brave/host/host.py",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://lanpecpfhmjcpdngpnjgkoegloefenok/"
+  ]
+}
